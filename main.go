@@ -1,8 +1,8 @@
 package main
 
 import (
-	"./shapes"
 	"fmt"
+	"github.com/bomer/go-interfaces/shapes"
 )
 
 //Second Object Circle
