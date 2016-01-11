@@ -1,18 +1,19 @@
 package main
 
 import (
+	"./shapes/Square"
 	"fmt"
 	"strconv"
 )
 
-//First Object, Square
-type Square struct {
-	side int
-}
+// //First Object, Square
+// type Square struct {
+// 	side int
+// }
 
-func (s *Square) area() string {
-	return strconv.Itoa(s.side * s.side)
-}
+// func (s *Square) area() string {
+// 	return strconv.Itoa(s.side * s.side)
+// }
 
 //Second Object Circle
 type Circle struct {
